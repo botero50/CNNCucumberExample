@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Abrir_una_p_gina_chimba" timestamp="2019-05-08T19:00:15" time="2.497" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="12e4583b2530dc392200eb894f90d99e"/>
+      <property name="suiteName" value="Abrir una página chimba"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\features\example.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Open_a_simple_page" timestamp="2019-05-08T19:00:16" time="2.481" tests="3" failures="0" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="12e4583b2530dc392200eb894f90d99e"/>
+      <property name="suiteName" value="Open a simple page"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\features\example.feature"/>
+    </properties>
+    <testcase classname="chrome.Open_a_simple_page" name="I_open_up_the_application_https_angular_io" time="5.127"/>
+    <testcase classname="chrome.Open_a_simple_page" name="I_search_abotero" time="2.653">
+      <error message="Step &quot;I search &quot;abotero&quot;&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-err>
+        <![CDATA[
+undefined:undefined
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.Open_a_simple_page" name="I_should_see_some_results_in_the_search_overlay" time="2.652">
+      <error message="Step &quot;I should see some results in the search overlay&quot; is not defined. You can ignore this error by setting&#xA;                              cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-err>
+        <![CDATA[
+undefined:undefined
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

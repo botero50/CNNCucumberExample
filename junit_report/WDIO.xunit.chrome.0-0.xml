@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="As_a_user_I_want_to_open_CNN_page_and_search_some_terms" timestamp="2019-05-08T22:45:30" time="37.135" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="444a5212e54d692a25640b7d6745d45b"/>
+      <property name="suiteName" value="As a user I want to open CNN page and search some terms"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\features\search.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="User_Search_NFL_and_get_some_news" timestamp="2019-05-08T22:45:30" time="30.089" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="444a5212e54d692a25640b7d6745d45b"/>
+      <property name="suiteName" value="User Search “NFL&quot; and get some news"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\features\search.feature"/>
+    </properties>
+    <testcase classname="chrome.User_Search_NFL_and_get_some_news" name="I_open_up_the_application_http_www_cnn_com" time="37.401"/>
+    <testcase classname="chrome.User_Search_NFL_and_get_some_news" name="I_search_NFL" time="13.494"/>
+    <testcase classname="chrome.User_Search_NFL_and_get_some_news" name="I_should_see_some_results_in_the_search_grid" time="8.146"/>
+  </testsuite>
+  <testsuite name="User_Search_NFLFake_and_get_an_error_message" timestamp="2019-05-08T22:46:00" time="7.033" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="444a5212e54d692a25640b7d6745d45b"/>
+      <property name="suiteName" value="User Search &quot;NFLFake&quot; and get an error message"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\features\search.feature"/>
+    </properties>
+    <testcase classname="chrome.User_Search_NFLFake_and_get_an_error_message" name="I_open_up_the_application_http_www_cnn_com" time="7.314"/>
+    <testcase classname="chrome.User_Search_NFLFake_and_get_an_error_message" name="I_search_NFLFake" time="4.194"/>
+    <testcase classname="chrome.User_Search_NFLFake_and_get_an_error_message" name="I_should_see_Your_search_for_NFLFake_did_not_match_any_documents_in_the_search_grid" time="0.373"/>
+  </testsuite>
+</testsuites>
